@@ -55,7 +55,20 @@ MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 
 
-**Start the backend server**:
+3. **Frontend Setup**:
+   ```bash
+   cd ../frontend
+   npm install
 
-```bash
-npm start
+**Create a .env file in the frontend directory**:
+
+**.env**
+
+GOOGLE_CLIENT_ID=your_google_client_id
+
+GOOGLE_CLIENT_KEY=your_google_client_key
+
+
+**Start the backend server & frontend server**:
+   ```bash
+   npm start
